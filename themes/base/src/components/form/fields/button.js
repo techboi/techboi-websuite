@@ -7,7 +7,7 @@ const Button = styled.button`
   ${tw`rounded bg-gray-200 text-gray-900 px-2 py-1`}
 
   :disabled {
-    ${tw`text-gray-600`}
+    ${tw`text-gray-600 cursor-not-allowed`}
   }
 
   ${focusStyle}
